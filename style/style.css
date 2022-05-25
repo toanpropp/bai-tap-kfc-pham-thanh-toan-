@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+.img{
+    width:50%;
+}
+.header .logo-kfc img{
+    width: 100px;
+    height: 100px;
+}
+.header .title{
+    margin: 20px 0px;
+}
+.header .title h1 {
+    background-color: red;
+    color: white;
+    font-size:33px;
+    text-align: left;
+}
+.header .navbar{
+    font-size: 20px;
+}
+.container .container-intro{
+    background-color:brown;
+    color: white;
+}
+.container .container-intro .container-intro-title{
+    margin: 30px 0px;
+    padding: 5px 0px 0px 0px;
+    font-size:20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container .container-intro .container-intro-showcase{
+    margin: 30px 0px;
+    font-size: 30px;
+}
+
+.container .container-development{
+    background-color:brown;
+    color: white;
+}
+.container .container-development .container-development-title{
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+.container .container-development .container-development-title h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .container-development .container-development-shocase{
+    padding: 0px 0px 0px 40px;
+    margin-top: 20px;
+    font-size:30px;
+}
+.container-table .table-title{
+    margin: 25px 0px ;
+}
+.container-table .table-title h2{
+    text-align: center;
+    font-size:32px;
+}
+.container-table .table-data table {
+    width: 900px;
+    height: 800px;
+    text-align: center;
+}
+.container-table .table-data table , th, td {
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.container-table .table-data .background-green-tea {
+    background-image: url(../img/greentea.jpg);
+    text-align: left;
+}
+.container-table .table-data .background-black-tea {
+    background-image: url(../img/blacktea.jpg);
+    text-align: right;
+}
+.container-table .table-data .background-Olong-Tea {
+    background-image: url(../img/olongtea.jpg);
+}
+.container-table .table-data .background-fruit-Tea {
+    background-image: url(../img/fruit.jpg);
+}
+.container-table .table-data .background-Milk-Tea {
+    background-image: url(../img/milktea.png);
+}
+.container-table .table-data .background-green-tea, .background-black-tea,.background-Olong-Tea,.background-fruit-Tea,.background-Milk-Tea{
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:rgb(255, 255, 255);
+    font-size:25px;
+}
+.news-page{
+    width: 60%;
+    background-color: grey;
+    margin-left:10px;
+}
+.news-page .title h1{
+    text-align: center; 
+    margin:30px 0px ;
+    color: brown;
+    font-size:40px;
+}
+.news , .news .content{
+    background-color:white;
+    font-size:20px;
+    
+}
+.content img{
+    width: 100%;
+}
